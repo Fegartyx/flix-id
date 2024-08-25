@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "707714895137",
+    "project_id": "flix-id-d5503",
+    "storage_bucket": "flix-id-d5503.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:707714895137:android:10bd66a39296e1a2600260",
+        "android_client_info": {
+          "package_name": "com.feri.flix_id"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAlbJoNjFwOYqVWI-f2j50oD1atPMiNe9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
