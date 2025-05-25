@@ -8,7 +8,7 @@ import 'package:dio/dio.dart';
 class TmdbMovieRepository implements MovieRepository {
   final Dio? _dio;
   final String _accessToken =
-      "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YjlkODUxNTk4ZDE0YTgwYzVjNDViN2YzNTdiNjZiNyIsIm5iZiI6MTcyMTM3MjQ2MS4zNDUxNCwic3ViIjoiNjQxYTlmNzdhM2U0YmEwMDgzMGFkYzg2Iiwic2NvcGVzIjpbImFwaV9yZWFkIl0sInZlcnNpb24iOjF9.1H4Nxt-85NfFdTL_uZ7_CNmqNC9yuVjIYdhwIkYCJbA";
+      "";
   late final options = Options(headers: {
     "Authorization": "Bearer $_accessToken",
     "accept": "application/json",
